@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=Currency converter
+Comment=Currency converter
+Exec=/usr/bin/currency-converter
+Icon=currency-converter
+Type=Application
+StartupNotify=true
+Terminal=false
+StartupWMClass=currency-converter
+Categories=Productivity;Lifestyle;Education;Utilities;
+Keywords=currency;converter;rwf;currency-converter;cc;cur

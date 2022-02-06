@@ -1,0 +1,8 @@
+ dpkg-buildpackage -us -uc -ui -T clean
+dpkg-buildpackage: info: source package currency-converter
+dpkg-buildpackage: info: source version 1.0.0
+dpkg-buildpackage: info: source distribution unstable
+dpkg-buildpackage: info: source changed by Divine <ikirezidivine21@gmail.com>
+dpkg-checkbuilddeps: error: Unmet build dependencies: dephelper (>= 7)
+dpkg-buildpackage: warning: build dependencies/conflicts unsatisfied; aborting
+dpkg-buildpackage: warning: (Use -d flag to override.)

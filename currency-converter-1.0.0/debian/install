@@ -1,0 +1,4 @@
+currency-converter usr/bin/
+currency-converter.1 usr/share/man/man1/
+currency-converter.svg usr/share/pixmaps/
+currency-converter.desktop usr/share/applications/
