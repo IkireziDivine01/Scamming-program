@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sun, 06 Feb 2022 21:22:13 +0200
+Source: currency-converter
+Binary: currency-converter
+Architecture: source all
+Version: 1.0.0
+Distribution: unstable
+Urgency: medium
+Maintainer: Divine Ikirezi <ikirezidivine21@gmail.com>
+Changed-By: Divine <ikirezidivine21@gmail.com>
+Description:
+ currency-converter - currency-converter
+Changes:
+ currency-converter (1.0.0) unstable; urgency=medium
+ .
+   * Initial release. (Closes: #XXXXXX)
+Checksums-Sha1:
+ 8f69974d0ea823e65287aad04bd0962aa4b7047f 595 currency-converter_1.0.0.dsc
+ 40b9cd21bfcb8b69f96f163288ca7e57e95321a4 4960 currency-converter_1.0.0.tar.xz
+ 4e6dadc9665b1acb57f93b868f12f60e611655fc 5444 currency-converter_1.0.0_all.deb
+ e4987251f1d676058be28f368afe50faa46d9b06 6113 currency-converter_1.0.0_amd64.buildinfo
+Checksums-Sha256:
+ 5d95d91466693ab952c0d9d07be492da5ff498bba640ea16a5b2e034baba8625 595 currency-converter_1.0.0.dsc
+ d7aa436ea1a3992270942c16aae9ee7ec431f2f78ab94f9d6d9d4384f086092e 4960 currency-converter_1.0.0.tar.xz
+ b7654076bba82bc299866c2c41a0f1f38b4785586e24c7095174e26e6361e626 5444 currency-converter_1.0.0_all.deb
+ 9ab14d32a852736c2521e74387f5a1e750771f0dce5281b171b2e245bb50c68e 6113 currency-converter_1.0.0_amd64.buildinfo
+Files:
+ bdb4c0013a199f8504c847321ea46889 595 python optional currency-converter_1.0.0.dsc
+ 8affc35607596ffca0d033b6327eaee2 4960 python optional currency-converter_1.0.0.tar.xz
+ 915f0b52dd8ca6c4c3b0d90fd4245f89 5444 python optional currency-converter_1.0.0_all.deb
+ 077ff7a61d884face1d7219676a2b655 6113 python optional currency-converter_1.0.0_amd64.buildinfo

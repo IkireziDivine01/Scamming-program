@@ -1,13 +1,13 @@
 Source: currency-converter
 Section: python
 Maintainer: Divine Ikirezi <ikirezidivine21@gmail.com>
-Build-Depends: dephelper (>= 7),
+Build-Depends: debhelper (>= 7),
                python3 (>= 3.8)
-Standards-Version: 4.5.0
+Standards-Version: 4.5.1
 Priority: optional
 
 Package: currency-converter
 Architecture: all
 Section: python
-Depends: python3 (>= 3.8)
+Depends: python3 (>= 3.8), ${misc:Depends}
 Description: currency-converter

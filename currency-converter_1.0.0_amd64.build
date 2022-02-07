@@ -3,6 +3,26 @@ dpkg-buildpackage: info: source package currency-converter
 dpkg-buildpackage: info: source version 1.0.0
 dpkg-buildpackage: info: source distribution unstable
 dpkg-buildpackage: info: source changed by Divine <ikirezidivine21@gmail.com>
-dpkg-checkbuilddeps: error: Unmet build dependencies: dephelper (>= 7)
-dpkg-buildpackage: warning: build dependencies/conflicts unsatisfied; aborting
-dpkg-buildpackage: warning: (Use -d flag to override.)
+ fakeroot debian/rules clean
+dh clean
+   dh_clean
+Now running lintian currency-converter_1.0.0_amd64.changes ...
+E: currency-converter changes: bad-distribution-in-changes-file unstable
+E: currency-converter: description-is-pkg-name currency-converter
+E: currency-converter: description-starts-with-package-name
+E: currency-converter: description-too-short currency-converter
+E: currency-converter: empty-manual-page usr/share/man/man1/currency-converter.1.gz
+E: currency-converter: extended-description-is-empty
+W: currency-converter: desktop-entry-invalid-category Lifestyle usr/share/applications/currency-converter.desktop
+W: currency-converter: desktop-entry-invalid-category Productivity usr/share/applications/currency-converter.desktop
+W: currency-converter: desktop-entry-invalid-category Utilities usr/share/applications/currency-converter.desktop
+W: currency-converter source: newer-standards-version 4.5.1 (current is 4.5.0)
+W: currency-converter source: no-newline-at-end debian/control
+W: currency-converter source: no-newline-at-end debian/rules
+W: currency-converter: wrong-bug-number-in-closes l3:#XXXXXX
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile dsc currency-converter_1.0.0.dsc Divine <ikirezidivine21@gmail.com>
+gpg: skipped "Divine <ikirezidivine21@gmail.com>": No secret key
+gpg: /tmp/debsign.GUyIvZ4K/currency-converter_1.0.0.dsc: clear-sign failed: No secret key
+debsign: gpg error occurred!  Aborting....
